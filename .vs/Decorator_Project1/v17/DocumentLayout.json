@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\source\\repos\\Decorator_Project1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD47E4F8-D8C1-4360-AD26-2FE4EF721D3B}|TestProject1.nUnitTests\\TestProject1.nUnitTests.csproj|c:\\users\\hp\\source\\repos\\decorator_project1\\testproject1.nunittests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD47E4F8-D8C1-4360-AD26-2FE4EF721D3B}|TestProject1.nUnitTests\\TestProject1.nUnitTests.csproj|solutionrelative:testproject1.nunittests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9A7AC6-F2DF-4196-A627-0D974C5CF9DF}|Decorator_Project1\\Decorator_Project1.csproj|c:\\users\\hp\\source\\repos\\decorator_project1\\decorator_project1\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C9A7AC6-F2DF-4196-A627-0D974C5CF9DF}|Decorator_Project1\\Decorator_Project1.csproj|solutionrelative:decorator_project1\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Decorator_Project1\\TestProject1.nUnitTests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "TestProject1.nUnitTests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Decorator_Project1\\TestProject1.nUnitTests\\UnitTest1.cs",
+              "RelativeToolTip": "TestProject1.nUnitTests\\UnitTest1.cs",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAwwIwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T09:27:27.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Decorator_Project1\\Decorator_Project1\\Class1.cs",
+              "RelativeDocumentMoniker": "Decorator_Project1\\Class1.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Decorator_Project1\\Decorator_Project1\\Class1.cs",
+              "RelativeToolTip": "Decorator_Project1\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T08:41:58.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
