@@ -1,0 +1,2 @@
+# Overview
+The purpose of this project is to demonstrate the implementation of the Decorator Design Pattern in C#. This pattern is a structural design pattern that allows behavior to be added to individual objects, either statically or dynamically, without affecting the behavior of other objects from the same class. It is particularly useful for adhering to the Open/Closed Principle, which states that classes should be open for extension but closed for modification.
