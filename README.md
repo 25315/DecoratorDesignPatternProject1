@@ -28,37 +28,37 @@ The purpose of this project is to demonstrate the implementation of the Decorato
 
 # UML Diagram
 
-                       +--------------------+
-                       |      <<interface>>  |
-                       |        ICar         |
-                       +--------------------+
-                       | +GetCost() : double |
-                       | +GetDescription() : string |
-                       +--------------------+
-                                ^
-                                |
-                    +--------------------+
-                    |      HyundaiCar     |
-                    +--------------------+
-                    | +GetCost() : double |
-                    | +GetDescription() : string |
-                    +--------------------+
-                                ^
-                                |
-                    +--------------------+
-                    |  CarDecorator      |
-                    +--------------------+
-                    | - car: ICar       |
-                    +--------------------+
-                    | +CarDecorator(car: ICar) |
-                    | +GetCost() : double |
-                    | +GetDescription() : string |
-                    +--------------------+
-                    ^                 ^
-                    |                 | 
-   +--------------------+       +--------------------+
-   | DieselCarDecorator |       | PetrolCarDecorator |
-   +--------------------+       +--------------------+
-   | +GetCost() : double |       | +GetCost() : double |
-   | +GetDescription() : string | +GetDescription() : string |
-   +--------------------+       +--------------------+
+                               +-----------------------------+
+                               |      <<interface>>          |
+                               |        ICar                 |
+                               +-----------------------------+
+                               | +GetCost() : double         |
+                               | +GetDescription() : string  |
+                               +-----------------------------+
+                                            ^
+                                            |
+                                +----------------------------+
+                                |      HyundaiCar            |
+                                +----------------------------+
+                                | +GetCost() : double        |
+                                | +GetDescription() : string |
+                                +----------------------------+
+                                            ^
+                                            |
+                                +----------------------------+
+                                |  CarDecorator              |
+                                +----------------------------+
+                                | - car: ICar                |
+                                +----------------------------+
+                                | +CarDecorator(car: ICar)   |
+                                | +GetCost() : double        |
+                                | +GetDescription() : string |
+                                +----------------------------+
+                                ^                 ^
+                                |                 | 
+        +---------------------------+         +----------------------------+
+       | DieselCarDecorator         |         | PetrolCarDecorator         |
+       +----------------------------+         +----------------------------+
+       | +GetCost() : double        |         | +GetCost() : double        |
+       | +GetDescription() : string |         | +GetDescription() : string |
+       +----------------------------+         +----------------------------+
