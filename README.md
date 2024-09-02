@@ -25,3 +25,40 @@ The purpose of this project is to demonstrate the implementation of the Decorato
     Modify or extend the functionality of the base ICar object.
     DieselCarDecorator: Adds a diesel engine to the car, increasing its cost and modifying its description.
     PetrolCarDecorator: Adds a petrol engine to the car, similarly modifying its cost and description.
+
+# UML Diagram
+
+                       +--------------------+
+                       |      <<interface>>  |
+                       |        ICar         |
+                       +--------------------+
+                       | +GetCost() : double |
+                       | +GetDescription() : string |
+                       +--------------------+
+                                ^
+                                |
+                    +--------------------+
+                    |      HyundaiCar     |
+                    +--------------------+
+                    | +GetCost() : double |
+                    | +GetDescription() : string |
+                    +--------------------+
+                                ^
+                                |
+                    +--------------------+
+                    |  CarDecorator      |
+                    +--------------------+
+                    | - car: ICar       |
+                    +--------------------+
+                    | +CarDecorator(car: ICar) |
+                    | +GetCost() : double |
+                    | +GetDescription() : string |
+                    +--------------------+
+                    ^                 ^
+                    |                 | 
+   +--------------------+       +--------------------+
+   | DieselCarDecorator |       | PetrolCarDecorator |
+   +--------------------+       +--------------------+
+   | +GetCost() : double |       | +GetCost() : double |
+   | +GetDescription() : string | +GetDescription() : string |
+   +--------------------+       +--------------------+
